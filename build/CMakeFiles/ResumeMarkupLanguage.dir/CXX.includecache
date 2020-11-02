@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aidanhanda/Documents/Development/repos/ResumeMarkupLanguage/src/parse_header.cpp
+iostream
+-
+fstream
+-
+string
+-
+parse_header.hpp
+/Users/aidanhanda/Documents/Development/repos/ResumeMarkupLanguage/src/parse_header.hpp
+
+/Users/aidanhanda/Documents/Development/repos/ResumeMarkupLanguage/src/parse_header.hpp
+
