@@ -1,0 +1,26 @@
+// Comments are done with double //
+
+[ Aidan's Resume ]  // Resume name is enclosed by square brackets
+{ ../sources }        // Source directory is enclosed by curly brackets
+( TheResume )       // Template name is enclosed by parentheticals
+
+// -------------------------------------
+// Section names which are prefixed with a # come from the directories in the 
+//  sources directory selected with { }
+// -------------------------------------
+
+# Education             // Section names start with a hashtag
+- display = Academic    // Names of sections can be overriden with the display variable
+
+# Experience            // By default sections fit all entries they can 
+
+# Projects              // This can be overrided with the star operator
+
+*ResumeMarkupLanguage   // Individual projects to be included
+*Project23              // Don't include them all
+
+# Skills
+- bottom_half=true      // Template variables can be included under section names with a hyphen
+
+# Awards
+- bottom_half=true
